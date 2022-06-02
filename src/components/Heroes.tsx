@@ -1,6 +1,6 @@
 import React, { FC } from "react";
-import { IHero } from "./HeroesStore";
-import { HeroesStore } from "./HeroesStore";
+import { IHero } from "../components/store/HeroesStore";
+import { HeroesStore } from "./store/HeroesStore";
 import { observer } from 'mobx-react';
 
 interface IProps {

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { IHero } from './components/HeroesStore';
-import store from './components/HeroesStore';
+import store from './components/store/HeroesStore';
 import Heroes from './components/Heroes';
 import './App.css';
 
